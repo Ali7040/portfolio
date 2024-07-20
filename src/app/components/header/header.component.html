@@ -1,0 +1,15 @@
+<nav class="flex justify-around items-center p-5 border-b border-slate-300">
+  <span class="logo text-2xl font-bold text-slate-600 cursor-pointer">ALI HAIDER</span>
+  <mat-icon class="menu-icon text-3xl cursor-pointer" (click)="toggleMenu()">menu</mat-icon>
+  <ul class="nav-items flex space-x-9 text-xl p-1 text-slate-600 opacity-100">
+    <li>
+      <a href="#" class="hover:opacity-70" (click)="scrollToSection('about')">About</a>
+    </li>
+    <li>
+      <a href="#" class="hover:opacity-70" (click)="scrollToSection('projects')">Projects</a>
+    </li>
+    <li>
+      <a href="#" class="hover:opacity-70" (click)="scrollToSection('contact')">Contact</a>
+    </li>
+  </ul>
+</nav>
