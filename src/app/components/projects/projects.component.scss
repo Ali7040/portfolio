@@ -1,0 +1,43 @@
+.projects {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem; /* Tailwind's p-5 equivalent */
+}
+
+.project-card {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.title {
+  margin-bottom: 30px; /* Adjust as needed */
+}
+
+.grid-container {
+  margin-top: 30px; /* Adjust as needed */
+}
+
+/* Custom Media Query for specific breakpoint */
+@media screen and (min-width: 560px) and (max-width: 780px) {
+  .about-section,
+  .projects {
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px; /* Ensure there is enough space between sections */
+  }
+}
+
+@media screen and (min-width: 270px) and (max-width: 641px){
+  .about-section,
+  .projects {
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px; /* Ensure there is enough space between sections */
+  }
+}
