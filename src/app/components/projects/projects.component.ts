@@ -31,4 +31,13 @@ Integrated user authentication for secure login and registration.Utilized SCSS f
 
   tags6: string[] = ["Angular", "TS", "CSS", "tailwindcss"];
   description6: string = `Created a new portfolio project using Angular, TypeScript, and SCSS, with Tailwind CSS for streamlined styling. The project showcases modern frontend development practices and a responsive design for an enhanced user experience.`;
+
+  tags7: string[] = ["python", "Yolo"];
+  description7: string = `Developed a real-time object detection system using Python and the YOLO algorithm. The system can detect objects in images and videos, providing valuable insights for various applications, including security and surveillance.`;
+
+  tags8: string[] = ["python", "Yolo"];
+  description8: string = `Developed a people counter using YOLO v8 and Python, leveraging real-time object detection to accurately count individuals in various environments. This project demonstrates proficiency in machine learning and computer vision, with a focus on practical applications in monitoring and analysis.`;
+
+  tags9: string[] = ["python", "Yolo"];
+  description9: string = `Created a learning project involving a people counter using YOLO v8 and Python. This system utilizes real-time object detection to count individuals accurately, showcasing skills in machine learning and computer vision.`;
 }
