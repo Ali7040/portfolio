@@ -10,67 +10,16 @@
   <div
     class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 w-full max-w-screen-xl mx-auto grid-container"
   >
-    <app-card
-      [imgSrc]="'assets/imgs/foodApp.png'"
-      [projectTitle]="'FOOD Store'"
-      [projectDescription]="description1"
-      [tags]="tags1"
-    ></app-card>
-
-    <app-card
-      [imgSrc]="'assets/imgs/sumIt.png'"
-      [projectTitle]="'SumIt'"
-      [projectDescription]="description2"
-      [tags]="tags2"
-    ></app-card>
-
-    <app-card
-      [imgSrc]="'assets/imgs/p-1.png'"
-      [projectTitle]="'snapGram'"
-      [projectDescription]="description3"
-      [tags]="tags3"
-    ></app-card>
-
-    <app-card
-      [imgSrc]="'assets/imgs/netflix-clone.png'"
-      [projectTitle]="'Netflix Clone'"
-      [projectDescription]="description4"
-      [tags]="tags4"
-    ></app-card>
-
-    <app-card
-      [imgSrc]="'assets/imgs/old-portfolio.png'"
-      [projectTitle]="'Portfolio'"
-      [projectDescription]="description5"
-      [tags]="tags5"
-    ></app-card>
-
-    <app-card
-      [imgSrc]="'assets/imgs/new-portfolio.png'"
-      [projectTitle]="'New Portfolio'"
-      [projectDescription]="description6"
-      [tags]="tags6"
-    ></app-card>
-
-    <app-card
-      [imgSrc]="'assets/imgs/img-detector.png'"
-      [projectTitle]="'Image Detector'"
-      [projectDescription]="description6"
-      [tags]="tags7"
-    ></app-card>
-
-    <app-card
-      [imgSrc]="'assets/imgs/people-counter.png'"
-      [projectTitle]="'People Counter'"
-      [projectDescription]="description6"
-      [tags]="tags8"
-    ></app-card>
-
-    <app-card
-      [imgSrc]="'assets/imgs/car-counter.png'"
-      [projectTitle]="'Car Counter'"
-      [projectDescription]="description6"
-      [tags]="tags9"
-    ></app-card>
+    @for(project of projects;track project){
+    <ng-container>
+      <app-card
+        [imgSrc]="project.imgSrc"
+        [projectTitle]="project.projectTitle"
+        [projectDescription]="project.projectDescription"
+        [tags]="project.tags"
+        [liveUrl]="project.liveUrl"
+      ></app-card>
+    </ng-container>
+    }
   </div>
 </div>

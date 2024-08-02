@@ -11,7 +11,12 @@
       >
       }
     </div>
-    <h2 class="text-xl font-bold mb-2">{{ projectTitle }}</h2>
+    <div class="title-container flex items-center justify-between mb-2">
+      <h2 class="text-xl font-bold">{{ projectTitle }}</h2>
+      @if(liveUrl){
+      <button (click)="openLive($event)" class="live-button">Live</button>
+      }
+    </div>
     <p class="text-gray-600">{{ projectDescription }}</p>
   </div>
 </div>
