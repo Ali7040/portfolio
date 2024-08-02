@@ -1,5 +1,7 @@
-<div class="projects flex flex-col justify-center items-center h-screen p-5">
-  <p class=" font-sans text-sm font-medium text-slate-400">Browse My Recent</p>
+<div
+  class="projects flex flex-col justify-center items-center h-screen p-5 mt-10"
+>
+  <p class="font-sans text-sm font-medium text-slate-400">Browse My Recent</p>
   <p
     class="text-4xl font-extrabold text-slate-600 mb-10 mt-10 title hover:opacity-70 hover:cursor-pointer transition ease-in-out delay-150 cursor-pointer hover:scale-110"
   >
@@ -9,24 +11,45 @@
     class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 w-full max-w-screen-xl mx-auto grid-container"
   >
     <app-card
-      [imgSrc]="'assets/imgs/p-1.png'"
-      [projectTitle]="'My Project'"
+      [imgSrc]="'assets/imgs/foodApp.png'"
+      [projectTitle]="'FOOD Store'"
       [projectDescription]="description1"
       [tags]="tags1"
     ></app-card>
 
     <app-card
-      [imgSrc]="'assets/imgs/p-1.png'"
-      [projectTitle]="'My Project'"
-      [projectDescription]="description1"
-      [tags]="tags1"
+      [imgSrc]="'assets/imgs/sumIt.png'"
+      [projectTitle]="'SumIt'"
+      [projectDescription]="description2"
+      [tags]="tags2"
     ></app-card>
 
     <app-card
       [imgSrc]="'assets/imgs/p-1.png'"
-      [projectTitle]="'My Project'"
-      [projectDescription]="description1"
-      [tags]="tags1"
+      [projectTitle]="'snapGram'"
+      [projectDescription]="description3"
+      [tags]="tags3"
+    ></app-card>
+
+    <app-card
+      [imgSrc]="'assets/imgs/netflix-clone.png'"
+      [projectTitle]="'Netflix Clone'"
+      [projectDescription]="description4"
+      [tags]="tags4"
+    ></app-card>
+
+    <app-card
+      [imgSrc]="'assets/imgs/old-portfolio.png'"
+      [projectTitle]="'Portfolio'"
+      [projectDescription]="description5"
+      [tags]="tags5"
+    ></app-card>
+
+    <app-card
+      [imgSrc]="'assets/imgs/new-portfolio.png'"
+      [projectTitle]="'New Portfolio'"
+      [projectDescription]="description6"
+      [tags]="tags6"
     ></app-card>
   </div>
 </div>

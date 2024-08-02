@@ -1,5 +1,5 @@
 .projects {
-  height: 100vh; /* Full viewport height */
+  height: 160vh; /* Full viewport height */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (min-width: 270px) and (max-width: 641px){
+@media screen and (min-width: 270px) and (max-width: 641px) {
   .about-section,
   .projects {
     height: auto;
