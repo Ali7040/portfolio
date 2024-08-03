@@ -61,19 +61,19 @@ export class ProjectsComponent {
     {
       imgSrc: "assets/imgs/img-detector.png",
       projectTitle: "Image Detector",
-      projectDescription: `Developed a real-time object detection system using Python and the YOLO algorithm. The system can detect objects in images and videos, providing valuable insights for various applications, including security and surveillance.`,
+      projectDescription: `Created a real-time object detection system using YOLO and Python, integrated with a webcam for live video analysis. `,
       tags: ["python", "Yolo"],
     },
     {
       imgSrc: "assets/imgs/people-counter.png",
       projectTitle: "People Counter",
-      projectDescription: `Developed a people counter using YOLO v8 and Python, leveraging real-time object detection to accurately count individuals in various environments. This project demonstrates proficiency in machine learning and computer vision, with a focus on practical applications in monitoring and analysis.`,
+      projectDescription: `Created a learning project involving a people counter using YOLO v8 and Python. This system utilizes real-time object detection to count individuals accurately,`,
       tags: ["python", "Yolo"],
     },
     {
       imgSrc: "assets/imgs/car-counter.png",
       projectTitle: "Car Counter",
-      projectDescription: `Created a learning project involving a people counter using YOLO v8 and Python. This system utilizes real-time object detection to count individuals accurately, showcasing skills in machine learning and computer vision.`,
+      projectDescription: `Developed a car counter as a learning project, utilizing machine learning and computer vision techniques. This project demonstrates proficiency in real-time object detection and practical application of AI technologies.`,
       tags: ["python", "Yolo"],
     },
   ];
