@@ -14,34 +14,32 @@ export class ProjectsComponent {
     {
       imgSrc: "assets/imgs/foodApp.png",
       projectTitle: "FOOD Store",
-      projectDescription: `Developed a dynamic and responsive online food store using Angular.
-        Implemented a comprehensive product catalog with sorting and filtering options.
-        Integrated user authentication for secure login and registration. Utilized SCSS for advanced styling and layout customization.`,
+      projectDescription: `I created a food ordering app inspired by Food Panda using Angular. This dynamic and responsive app features a comprehensive product catalog with sorting and filtering options, secure user authentication for login and registration, and advanced styling with SCSS. This project was a great way for me to enhance my skills in building complex, user-friendly applications.`,
       tags: ["Angular", "TS", "SCSS", "Node.js", "MongoDB", "Mongoose"],
     },
     {
       imgSrc: "assets/imgs/calendar.png",
       projectTitle: "Calendar App",
-      projectDescription: `Developed a calendar app from scratch using Angular and Angular Material, without relying on external libraries. This project showcases proficiency in building complex, user-friendly interfaces and custom components.`,
+      projectDescription: `I built a digital calendar app from the ground up using Angular and Angular Material, without relying on any external libraries. This project allowed me to implement features for setting and managing events on specific dates.`,
       tags: ["Angular", "TS", "SCSS", "Angular Material"],
       liveUrl: "https://calendar-app7.netlify.app/",
     },
     {
       imgSrc: "assets/imgs/sumIt.png",
       projectTitle: "SumIt",
-      projectDescription: `Providing users with an intuitive and efficient tool for creating and managing notes. Enhanced user productivity through seamless integration with browser environments.`,
+      projectDescription: `Fed up with disorganized online reading, I created Sumit a web extension crafted with HTML, CSS, and JavaScript. Sumit helps me capture and organize notes, turning my online reading chaos into clarity. This project is a personal testament to solving real challenges with tailored tech solutions.`,
       tags: ["HTML", "JS", "CSS"],
     },
     {
       imgSrc: "assets/imgs/p-1.png",
       projectTitle: "snapGram",
-      projectDescription: `Developed a social media web app using React and TypeScript. The application features interactive user interfaces and dynamic content, providing an engaging and immersive user experience.`,
+      projectDescription: `I created a social media web app using React and TypeScript. This application features interactive user interfaces and dynamic content, providing an engaging and immersive user experience.`,
       tags: ["React", "TS", "CSS", "appwrite", "tailwindcss"],
     },
     {
       imgSrc: "assets/imgs/netflix-clone.png",
       projectTitle: "Netflix Clone",
-      projectDescription: `Developed a clone of an Angular application, integrating Google Authentication for secure and seamless user login. This project demonstrates proficiency in Angular and the implementation of robust authentication mechanisms.`,
+      projectDescription: `I create a clone of an Netflix application using Angular, integrating Google Authentication for secure and seamless user login, and the implementation of robust authentication mechanisms.`,
       tags: ["Angular", "TS", "SCSS"],
     },
     {
@@ -54,26 +52,26 @@ export class ProjectsComponent {
     {
       imgSrc: "assets/imgs/new-portfolio.png",
       projectTitle: "New Portfolio",
-      projectDescription: `Created a new portfolio project using Angular, TypeScript, and SCSS, with Tailwind CSS for streamlined styling. The project showcases modern frontend development practices and a responsive design for an enhanced user experience.`,
+      projectDescription: `I created a new portfolio project using Angular, TypeScript, and SCSS, incorporating Tailwind CSS for streamlined styling. This project showcases my skills in modern frontend development practices and features a responsive design for an enhanced user experience.`,
       tags: ["Angular", "TS", "CSS", "tailwindcss"],
       liveUrl: "https://alihaider7.netlify.app/",
     },
     {
       imgSrc: "assets/imgs/img-detector.png",
       projectTitle: "Image Detector",
-      projectDescription: `Created a real-time object detection system using YOLO and Python, integrated with a webcam for live video analysis. `,
+      projectDescription: `I created a real-time object detection system using YOLO and Python, integrated with a webcam for live video analysis.This project allowed me to explore and apply machine learning techniques in real time, enhancing my skills and understanding of object detection. `,
       tags: ["python", "Yolo"],
     },
     {
       imgSrc: "assets/imgs/people-counter.png",
       projectTitle: "People Counter",
-      projectDescription: `Created a learning project involving a people counter using YOLO v8 and Python. This system utilizes real-time object detection to count individuals accurately,`,
+      projectDescription: `I created a learning project involving a people counter using YOLO v8 and Python. This system utilizes real-time object detection to count individuals accurately,`,
       tags: ["python", "Yolo"],
     },
     {
       imgSrc: "assets/imgs/car-counter.png",
       projectTitle: "Car Counter",
-      projectDescription: `Developed a car counter as a learning project, utilizing machine learning and computer vision techniques. This project demonstrates proficiency in real-time object detection and practical application of AI technologies.`,
+      projectDescription: `I built a car counter as a learning project, using machine learning and computer vision techniques with YOLO in Python. This project was a hands-on way for me to deepen my skills in real-time object detection and practical AI applications.`,
       tags: ["python", "Yolo"],
     },
   ];
