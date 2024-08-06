@@ -24,7 +24,7 @@ export class ProjectsComponent {
       projectTitle: "Calendar App",
       projectDescription: `Developed a calendar app from scratch using Angular and Angular Material, without relying on external libraries. This project showcases proficiency in building complex, user-friendly interfaces and custom components.`,
       tags: ["Angular", "TS", "SCSS", "Angular Material"],
-      // liveUrl: "https://calendar-app.example.com",
+      liveUrl: "https://calendar-app7.netlify.app/",
     },
     {
       imgSrc: "assets/imgs/sumIt.png",
