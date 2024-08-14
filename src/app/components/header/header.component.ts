@@ -1,13 +1,14 @@
-import { Component, ElementRef } from '@angular/core';
-import { MatCommonModule } from '@angular/material/core';
-import { MatIcon } from '@angular/material/icon';
+import { CommonModule } from "@angular/common";
+import { Component, ElementRef } from "@angular/core";
+import { MatCommonModule } from "@angular/material/core";
+import { MatIcon } from "@angular/material/icon";
 
 @Component({
-  selector: 'app-header',
+  selector: "app-header",
   standalone: true,
-  imports: [MatIcon, MatCommonModule],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  imports: [MatIcon, MatCommonModule, CommonModule],
+  templateUrl: "./header.component.html",
+  styleUrl: "./header.component.scss",
 })
 export class HeaderComponent {
   constructor(private elementRef: ElementRef) {}
@@ -21,8 +22,7 @@ export class HeaderComponent {
   scrollToSection(sectionId: string) {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      section.scrollIntoView({ behavior: "smooth" });
     }
   }
-
 }
