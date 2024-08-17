@@ -11,8 +11,6 @@ import { MatIcon } from "@angular/material/icon";
   styleUrl: "./header.component.scss",
 })
 export class HeaderComponent {
-  constructor(private elementRef: ElementRef) {}
-
   menuOpen: boolean = false;
 
   toggleMenu() {
