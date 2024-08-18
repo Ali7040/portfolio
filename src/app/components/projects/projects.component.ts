@@ -18,6 +18,13 @@ export class ProjectsComponent {
       tags: ["Angular", "TS", "SCSS", "Node.js", "MongoDB", "Mongoose"],
     },
     {
+      imgSrc: "assets/imgs/old-portfolio.png",
+      projectTitle: "Portfolio",
+      projectDescription: `Previously developed a portfolio using React and Three.js, featuring interactive 3D elements to display projects and skills. This project demonstrated advanced frontend development and creative design integration. The new portfolio continues to build on these skills with updated features and improvements.`,
+      tags: ["React", "TS", "CSS", "threeJS", "tailwindcss"],
+      liveUrl: "https://ali-hiader.netlify.app/",
+    },
+    {
       imgSrc: "assets/imgs/calendar.png",
       projectTitle: "Calendar App",
       projectDescription: `I built a digital calendar app from the ground up using Angular and Angular Material, without relying on any external libraries. This project allowed me to implement features for setting and managing events on specific dates.`,
@@ -42,19 +49,12 @@ export class ProjectsComponent {
       projectDescription: `I create a clone of an Netflix application using Angular, integrating Google Authentication for secure and seamless user login, and the implementation of robust authentication mechanisms.`,
       tags: ["Angular", "TS", "SCSS"],
     },
-    {
-      imgSrc: "assets/imgs/old-portfolio.png",
-      projectTitle: "Portfolio",
-      projectDescription: `Previously developed a portfolio using React and Three.js, featuring interactive 3D elements to display projects and skills. This project demonstrated advanced frontend development and creative design integration. The new portfolio continues to build on these skills with updated features and improvements.`,
-      tags: ["React", "TS", "CSS", "threeJS", "tailwindcss"],
-      liveUrl: "https://ali-hiader.netlify.app/",
-    },
+
     {
       imgSrc: "assets/imgs/new-portfolio.png",
       projectTitle: "New Portfolio",
       projectDescription: `I created a new portfolio project using Angular, TypeScript, and SCSS, incorporating Tailwind CSS for streamlined styling. This project showcases my skills in modern frontend development practices and features a responsive design for an enhanced user experience.`,
       tags: ["Angular", "TS", "CSS", "tailwindcss"],
-      liveUrl: "https://alihaider7.netlify.app/",
     },
     {
       imgSrc: "assets/imgs/img-detector.png",

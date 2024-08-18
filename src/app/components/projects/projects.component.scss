@@ -1,10 +1,11 @@
 .projects {
-  height: 300vh; /* Full viewport height */
+  height: auto; /* Full viewport height */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1.25rem; /* Tailwind's p-5 equivalent */
+  margin-top: 2rem;
 }
 
 .project-card {
@@ -39,6 +40,7 @@
     height: auto;
     padding-bottom: 50px;
     padding-top: 50px; /* Ensure there is enough space between sections */
+    justify-content: center;
   }
 }
 
